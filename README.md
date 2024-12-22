@@ -1,5 +1,7 @@
 # Iso Date Converter
 
+* [iso-date-converter](https://github.com/nakita-Ypm/iso-date-converter)
+
 A lightweight TypeScript library that converts ISO 8601 date strings to YYYY-MM-DD format. Perfect for when you need to extract just the date portion from a full ISO timestamp.
 
 ## Installation
@@ -19,4 +21,4 @@ console.log(date) // '1970-01-01'
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/nakita-Ypm/iso-date-converter?tab=MIT-1-ov-file) for more information.
