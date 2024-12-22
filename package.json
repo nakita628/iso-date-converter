@@ -1,0 +1,37 @@
+{
+  "name": "iso-date-converter",
+  "description": "date convert",
+  "keywords": ["iso-date-converter"],
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/nakita-Ypm/date-converter",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nakita-Ypm/date-converter.git"
+  },
+  "bugs": { "url": "https://github.com/nakita-Ypm/date-converter/issues" },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "deps": "rm -rf node_modules && rm -rf pnpm-lock.yaml && pnpm install",
+    "build": "rm -rf dist && tsc",
+    "typecheck": "tsc --noEmit",
+    "fmt": "pnpm biome format --write ./",
+    "lint": "pnpm biome lint",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "release": "pnpm build && npm publish --access=public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.10.2",
+    "@vitest/coverage-v8": "^2.1.8",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
