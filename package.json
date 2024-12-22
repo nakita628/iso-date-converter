@@ -4,19 +4,19 @@
   "keywords": [
     "iso-date-converter"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "type": "module",
-  "homepage": "https://github.com/nakita-Ypm/date-converter",
+  "homepage": "https://github.com/nakita-Ypm/iso-date-converter",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nakita-Ypm/date-converter.git"
+    "url": "git+https://github.com/nakita-Ypm/iso-date-converter.git"
   },
   "bugs": {
-    "url": "https://github.com/nakita-Ypm/date-converter/issues"
+    "url": "https://github.com/nakita-Ypm/iso-date-converter/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
