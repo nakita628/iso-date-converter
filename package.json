@@ -1,9 +1,7 @@
 {
   "name": "iso-date-converter",
   "description": "date convert",
-  "keywords": [
-    "iso-date-converter"
-  ],
+  "keywords": ["iso-date-converter"],
   "version": "0.0.5",
   "license": "MIT",
   "type": "module",
@@ -20,9 +18,7 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "deps": "rm -rf node_modules && rm -rf pnpm-lock.yaml && pnpm install",
     "build": "rm -rf dist && tsc",
